@@ -1,0 +1,11 @@
+"Example Radial Disk and Radial Gaussian Templates used in analysis. Change the parameters as per your demand".
+<spatialModel type="RadialDisk">
+<parameter free="0" max="10" min="0" name="Radius" scale="1" value="0.2" />
+<parameter free="0" max="360" min="-360" name="RA" scale="1" value="166.1138" />
+<parameter free="0" max="90" min="-90" name="DEC" scale="1" value="38.2088" />
+</spatialModel>
+<spatialModel type="RadialGaussian">
+<parameter free="0" max="10" min="0" name="Sigma" scale="1" value="0.2" />
+<parameter free="0" max="360" min="-360" name="RA" scale="1" value="166.1138" />
+<parameter free="0" max="90" min="-90" name="DEC" scale="1" value="38.2088" />
+</spatialModel>
